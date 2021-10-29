@@ -1,0 +1,26 @@
+{
+	"name": "petenelson/wp-multisite-plugin-list",
+	"description": "WP-CLI commands to generate a list of plugins for a WordPress multisite install",
+	"keywords": [
+		"wordpress",
+		"multisite",
+		"plugins"
+	],
+	"homepage": "https://github.com/petenelson/wp-multisite-plugin-list",
+	"license": "GPL2+",
+	"authors": [
+		{
+			"name": "Pete Nelson",
+			"email": "pete@petenelson.com",
+			"homepage": "https://petenelson.io/"
+		}
+	],
+	"type": "wordpress-plugin",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "dev-master",
+		"phpunit/phpunit": "^4.8"
+	}
+}
